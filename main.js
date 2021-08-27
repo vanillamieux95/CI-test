@@ -1,19 +1,19 @@
 // 1. Cho một mảng các chuỗi, viết chương trình trả về mảng mới chứa các chuỗi có độ dài lớn nhất.
 
-let input = prompt("enter a list of text, separated by comma")
-let inputArray = input.split(",")
-//let inputArray =["BINH", "HUNG", "PHUOC", "CAO", "KHANHH", "a", "aa", "aaaaaaaaaaaaaa"];
-let largestLengthArr = [];
-let largestLength = inputArray[0].length
+// let input = prompt("enter a list of text, separated by comma")
+// let inputArray = input.split(",")
+// //let inputArray =["BINH", "HUNG", "PHUOC", "CAO", "KHANHH", "a", "aa", "aaaaaaaaaaaaaa"];
+// let largestLengthArr = [];
+// let largestLength = inputArray[0].length
 
-for (i = 0; i < inputArray.length; i++) {
-        if (largestLength < inputArray[i].length) {
-            largestLength = inputArray[i].length
-            largestLengthArr.push(inputArray[i])
-        } 
-}
-console.log(inputArray)
-console.log(largestLengthArr)
+// for (i = 0; i < inputArray.length; i++) {
+//         if (largestLength < inputArray[i].length) {
+//             largestLength = inputArray[i].length
+//             largestLengthArr.push(inputArray[i])
+//         } 
+// }
+// console.log(inputArray)
+// console.log(largestLengthArr)
 
 
 
@@ -40,3 +40,11 @@ console.log(largestLengthArr)
 // }
 // totalWeight.push(sumWeightTeam1, sumWeightTeam2)
 // console.log(totalWeight)
+
+
+
+
+
+
+// B
+

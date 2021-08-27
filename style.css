@@ -5,7 +5,24 @@
 }
 
 body {
-    width: 100%;
-    height: 900px;
-    background-color: burlywood;
+    background-color: #BCFEFE;
 }
+
+.random {
+    margin-top: 300px;
+    text-align: center;
+}
+
+.random button {
+    background: none;
+    color: black;
+    border: 3px solid white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.color-hex {
+    font-size: 26px;
+    margin: 10px;
+}
+
